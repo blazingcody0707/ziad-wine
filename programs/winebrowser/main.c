@@ -132,7 +132,7 @@ static int open_http_url( const WCHAR *url )
 {
     static const WCHAR defaultbrowsers[] =
         L"xdg-open\0"
-        "/data/data/app.gamenative/files/usr/bin/open\0"
+        "/data/data/app.gamenative/files/imagefs/usr/bin/open\0"
         "/usr/bin/open\0"
         "firefox\0"
         "konqueror\0"
@@ -158,7 +158,7 @@ static int open_http_url( const WCHAR *url )
 static int open_mailto_url( const WCHAR *url )
 {
     static const WCHAR defaultmailers[] =
-        L"/data/data/app.gamenative/files/usr/bin/open"
+        L"/data/data/app.gamenative/files/imagefs/usr/bin/open"
         "/usr/bin/open\0"
         "xdg-email\0"
         "mozilla-thunderbird\0"

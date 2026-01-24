@@ -44,7 +44,7 @@ static const char *a_very_long_env_string =
  "/lib/;"
  "/usr/lib/mingw32/3.4.2/;"
  "/usr/lib/;"
- "/data/data/app.gamenative/files/usr/lib/";
+ "/data/data/app.gamenative/files/imagefs/usr/lib/";
 
 static char ***(__cdecl *p__p__environ)(void);
 static WCHAR ***(__cdecl *p__p__wenviron)(void);

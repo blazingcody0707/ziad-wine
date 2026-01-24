@@ -221,7 +221,7 @@ void init_user_sid(void)
     size_t n;
     FILE *f;
 
-    f = fopen( "/data/data/app.gamenative/files/usr/etc/machine-id", "r" );
+    f = fopen( "/data/data/app.gamenative/files/imagefs/usr/etc/machine-id", "r" );
     if (!f)
     {
         fprintf( stderr, "Failed to open /etc/machine-id, error %s.\n", strerror( errno ));
