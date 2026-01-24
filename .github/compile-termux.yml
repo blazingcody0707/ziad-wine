@@ -168,7 +168,7 @@ jobs:
           export TOOLCHAIN="/usr/local/lib/android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin"
           export LLVM_MINGW_TOOLCHAIN="/opt/llvm-mingw/bin"
           export PATH="$LLVM_MINGW_TOOLCHAIN:$PATH"
-          export deps="/data/data/app.gamenative/files/imagefs/usr"
+          export deps="/data/data/com.termux/files/usr"
           export CC="$TOOLCHAIN/clang --target=aarch64-linux-android28"
           export AS=$CC
           export CXX="$TOOLCHAIN/clang++ --target=aarch64-linux-android28"
@@ -234,7 +234,7 @@ jobs:
           export TOOLCHAIN="/usr/local/lib/android/sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin"
           export LLVM_MINGW_TOOLCHAIN="/opt/llvm-mingw/bin"
           export PATH="$LLVM_MINGW_TOOLCHAIN:$PATH"
-          export deps="/data/data/app.gamenative/files/imagefs/usr"
+          export deps="/data/data/com.termux/files/usr"
           export CC="$TOOLCHAIN/clang --target=aarch64-linux-android28"
           export AS=$CC
           export CXX="$TOOLCHAIN/clang++ --target=aarch64-linux-android28"
