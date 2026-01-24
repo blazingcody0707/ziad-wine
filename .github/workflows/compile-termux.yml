@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - bleeding-edge
-  paths-ignore:
-    - '.github/workflows/main.yml'
   workflow_dispatch:
 
 jobs:
